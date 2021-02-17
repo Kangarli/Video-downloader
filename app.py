@@ -21,8 +21,8 @@ def download():
         #         "description": yt.description,
         #     }
         # }
-        YouTube(url).streams.first().download()
-        return YouTube(url).streams.first().download()
+        YouTube(url).streams.first().download("E:\dev")
+        return 'YouTube(url).streams.first().download()'
 
 # yt = YouTube('https://www.youtube.com/watch?v=maoWldOBDj8')
 
